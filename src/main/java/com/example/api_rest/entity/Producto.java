@@ -17,7 +17,7 @@ public class Producto {
     private Double precio;
 
     @Column(name = "usuario_id")
-    private Integer usuarioId; // Relación simplificada
+    private Integer usuarioId;
 
     // Getters y Setters
     public Integer getId() { return id; }
